@@ -1,3 +1,27 @@
+@font-face {
+    font-family: Montauk;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: Fugaz One;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
 .woodBg {
     background-image: url(../assets/bgtexture.jpg);
+}
+.blankBg {
+    background-color: white;
+}
+.navText {
+    font-family: Fugaz One;
+    font-size: 20px;
+}
+.redTxt {
+    color: #5F002B;
+}
+.headerTxt {
+    font-family: Fugaz One;
+    font-size: 50px;
+    color: #5F002B;
+    text-align: center;
 }
