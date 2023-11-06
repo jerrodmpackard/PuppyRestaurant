@@ -32,6 +32,14 @@ body {
 }
 
 
+@font-face {
+    font-family: Montauk;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: Fugaz One;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
 .woodBg {
     background-image: url(../assets/bgtexture.jpg);
 }
