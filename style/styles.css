@@ -145,3 +145,19 @@ ul{
     max-width: 100%;
     height: auto;
 } */
+
+.menuFilltxt {
+    font-size: 20px;
+    font-family: Montauk;
+    color: #5F002B;
+}
+.menuHeadtxt {
+    font-family: Montauk;
+    font-size: 30px;
+    color: #5F002B;
+}
+.subHeadertxt {
+    font-family: Fugaz One;
+    font-size: 30px;
+    color: #5F002B;
+}
