@@ -127,3 +127,9 @@ body {
     font-size: 30px;
     color: #5F002B;
 }
+.menuBreak {
+    color: #980051;
+    border: solid 1px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
