@@ -191,6 +191,22 @@ ul{
   p {
     font-size: 20px;
   }
+.footTxt {
+    font-family: Montauk;
+    font-size: 20px;
+    color: #5F002B;
+}
+.topSpacing {
+    margin-top: 80px;
+}
+.footerMargTop {
+    padding: 0px;
+    margin-bottom: -10px;
+}
+.footerMargBot {
+    padding: 0px;
+    margin-top: -10px;
+}
 }
 
 /* Media Query for H3 Font Sizes ranging from 24px to 30px */
