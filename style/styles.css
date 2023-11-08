@@ -31,18 +31,6 @@ body {
   width: 40%;
 }
 
-/* .fontSize50 {
-    font-size: 50px;
-}
-
-.fontSize30 {
-    font-size: 30px;
-}
-
-.fontSize20 {
-    font-size: 20px;
-} */
-
 /* Media Query for P Font Sizes ranging from 16px to 20px */
 @media (min-width: 320px) {
   p {
@@ -84,18 +72,18 @@ body {
 
 /* Media Query for logo in navbar */
 @media (min-width: 320px) {
-    #logo {
-      width: calc(2.625rem + ((1vw - 3.2px) * 13));
-      min-height: 0vw;
-    }
+  #logo {
+    width: calc(8.0625rem + ((1vw - 3.2px) * 7.5625));
+    min-height: 0vw;
   }
-  @media (min-width: 1920px) {
-    #logo {
-      width: 250px;
-    }
+}
+@media (min-width: 1920px) {
+  #logo {
+    width: 250px;
   }
+}
 
-.responsiveImg {
+/* .responsiveImg {
     max-width: 100%;
     height: auto;
-}
+} */
