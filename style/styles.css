@@ -31,6 +31,91 @@ body {
   width: 40%;
 }
 
+
+.woodBg {
+    background-image: url(../assets/bgtexture.jpg);
+}
+.blankBg {
+    background-color: white;
+}
+.navText {
+    font-family: FugazOne;
+    font-size: 20px;
+}
+.footTxt {
+    font-family: Montauk;
+    font-size: 20px;
+    color: #5F002B;
+}
+.footerMargTop {
+    padding: 0px;
+    margin-bottom: -10px;
+}
+.footerMargBot {
+    padding: 0px;
+    margin-top: -10px;
+}
+.redTxt {
+    color: #5F002B;
+}
+.headerTxt {
+    font-family: FugazOne;
+    font-size: 50px;
+    color: #5F002B;
+    text-align: center;
+}
+.menuFilltxt {
+    font-size: 18px;
+    font-family: Montauk;
+    color: #5F002B;
+}
+.menuHeadtxt {
+    font-family: Montauk;
+    font-size: 30px;
+    color: #5F002B;
+}
+.subHeadertxt {
+    font-family: FugazOne;
+    font-size: 30px;
+    color: #5F002B;
+}
+.menuBreak {
+    color: #980051;
+    border: solid 1px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+.sandwichM {
+    margin-right: 8px;
+    margin-top: 25px;
+}
+.seafoodM {
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.grillM {
+    margin-right: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.dessertM {
+    margin-left: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.topSpacing {
+    margin-top: 80px;
+}
+.disappearImg {
+    opacity: 100%;
+}
+.Bigg {
+    max-width: 1640px;
+}
+.pgSpace {
+    border: 0px;
+}
+
 /* Media Query for P Font Sizes ranging from 16px to 20px */
 @media (min-width: 320px) {
   p {
@@ -87,3 +172,25 @@ body {
     max-width: 100%;
     height: auto;
 } */
+@media screen and (max-width: 650px) {
+    .topSpacing {
+     margin-right: 8px;
+     margin-left: 8px;
+    }
+     .disappearImg {
+         opacity: 0%;
+     }
+     .Bigg {
+         max-width: 100%;
+     }
+     .footTxt {
+         text-align: end;
+         margin-top: 10px;
+     }
+     .pgSpace {
+         padding-left: 15%;
+         padding-right: 15%;
+         margin-left: 50px;
+         margin-right: 50px;
+     }
+ }
