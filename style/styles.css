@@ -1,114 +1,89 @@
-@font-face {
-    font-family: Montauk;
-    src: url(../assets/fonts/Montauk-Regular.otf);
-}
-@font-face {
-    font-family: Fugaz One;
-    src: url(../assets/fonts/FugazOne-Regular.ttf);
-}
-.woodBg {
-    background-image: url(../assets/bgtexture.jpg);
-}
-.blankBg {
-    background-color: white;
-}
-.navText {
-    font-family: Fugaz One;
-    font-size: 20px;
-}
-.footTxt {
-    font-family: Montauk;
-    font-size: 20px;
-    color: #5F002B;
-}
-.footerMargTop {
-    padding: 0px;
-    margin-bottom: -10px;
-}
-.footerMargBot {
-    padding: 0px;
-    margin-top: -10px;
-}
-.redTxt {
-    color: #5F002B;
-}
-.headerTxt {
-    font-family: Fugaz One;
-    font-size: 50px;
-    color: #5F002B;
-    text-align: center;
-}
-.menuFilltxt {
-    font-size: 18px;
-    font-family: Montauk;
-    color: #5F002B;
-}
-.menuHeadtxt {
-    font-family: Montauk;
-    font-size: 30px;
-    color: #5F002B;
-}
-.subHeadertxt {
-    font-family: Fugaz One;
-    font-size: 30px;
-    color: #5F002B;
-}
-.menuBreak {
-    color: #980051;
-    border: solid 1px;
-    margin-top: -10px;
-    margin-bottom: 35px;
-}
-.sandwichM {
-    margin-right: 8px;
-    margin-top: 25px;
-}
-.seafoodM {
-    margin-left: 8px;
-    margin-top: 25px;
-}
-.grillM {
-    margin-right: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.dessertM {
-    margin-left: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.topSpacing {
-    margin-top: 80px;
-}
-.disappearImg {
-    opacity: 100%;
-}
-.Bigg {
-    max-width: 1640px;
-}
-.pgSpace {
-    border: 0px;
+body {
+  background-image: url("../assets/bgtexture.jpg");
 }
 
-@media screen and (max-width: 650px) {
-   .topSpacing {
-    margin-right: 8px;
-    margin-left: 8px;
-   }
-    .disappearImg {
-        opacity: 0%;
-    }
-    .Bigg {
-        max-width: 100%;
-    }
-    .footTxt {
-        text-align: end;
-        margin-top: 10px;
-    }
-    .pgSpace {
-        padding-left: 15%;
-        padding-right: 15%;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+.whiteBG {
+  background-color: white;
 }
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/fonts/Montauk-Regular.otf");
+}
+
+.montaukFont {
+  font-family: Montauk;
+  color: #5f002b;
+}
+
+@font-face {
+  font-family: FugazOne;
+  src: url("../assets/fonts/FugazOne-Regular.ttf");
+}
+
+.fugazOneFont {
+  font-family: FugazOne;
+  color: #5f002b;
+}
+
+.logoSize {
+  height: 40%;
+  width: 40%;
+}
+
+/* Media Query for P Font Sizes ranging from 16px to 20px */
+@media (min-width: 320px) {
+  p {
+    font-size: calc(1rem + ((1vw - 3.2px) * 0.25));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1920px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+/* Media Query for H3 Font Sizes ranging from 24px to 30px */
+@media (min-width: 320px) {
+  h3 {
+    font-size: calc(1.5rem + ((1vw - 3.2px) * 0.375));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1920px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+/* Media Query for H1 Font Sizes ranging from 40px to 50px */
+@media (min-width: 320px) {
+  h1 {
+    font-size: calc(2.5rem + ((1vw - 3.2px) * 0.625));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1920px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+/* Media Query for logo in navbar */
+@media (min-width: 320px) {
+  #logo {
+    width: calc(8.0625rem + ((1vw - 3.2px) * 7.5625));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1920px) {
+  #logo {
+    width: 250px;
+  }
+}
+
+/* .responsiveImg {
+    max-width: 100%;
+    height: auto;
+} */
