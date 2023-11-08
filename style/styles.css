@@ -1,0 +1,101 @@
+body {
+  background-image: url("../assets/bgtexture.jpg");
+}
+
+.whiteBG {
+  background-color: white;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/fonts/Montauk-Regular.otf");
+}
+
+.montaukFont {
+  font-family: Montauk;
+  color: #5f002b;
+}
+
+@font-face {
+  font-family: FugazOne;
+  src: url("../assets/fonts/FugazOne-Regular.ttf");
+}
+
+.fugazOneFont {
+  font-family: FugazOne;
+  color: #5f002b;
+}
+
+.logoSize {
+  height: 40%;
+  width: 40%;
+}
+
+/* .fontSize50 {
+    font-size: 50px;
+}
+
+.fontSize30 {
+    font-size: 30px;
+}
+
+.fontSize20 {
+    font-size: 20px;
+} */
+
+/* Media Query for P Font Sizes ranging from 16px to 20px */
+@media (min-width: 320px) {
+  p {
+    font-size: calc(1rem + ((1vw - 3.2px) * 0.25));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1920px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+/* Media Query for H3 Font Sizes ranging from 24px to 30px */
+@media (min-width: 320px) {
+  h3 {
+    font-size: calc(1.5rem + ((1vw - 3.2px) * 0.375));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1920px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+/* Media Query for H1 Font Sizes ranging from 40px to 50px */
+@media (min-width: 320px) {
+  h1 {
+    font-size: calc(2.5rem + ((1vw - 3.2px) * 0.625));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1920px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+/* Media Query for logo in navbar */
+@media (min-width: 320px) {
+    #logo {
+      width: calc(2.625rem + ((1vw - 3.2px) * 13));
+      min-height: 0vw;
+    }
+  }
+  @media (min-width: 1920px) {
+    #logo {
+      width: 250px;
+    }
+  }
+
+.responsiveImg {
+    max-width: 100%;
+    height: auto;
+}
