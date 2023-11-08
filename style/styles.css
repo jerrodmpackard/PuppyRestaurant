@@ -194,3 +194,7 @@ body {
          margin-right: 50px;
      }
  }
+
+.containerWidth {
+    max-width: 85%;
+}
