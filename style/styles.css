@@ -152,13 +152,56 @@ body {
 .disappearImg {
     opacity: 100%;
 }
+.Bigg {
+    max-width: 1640px;
+}
+.sandwichM {
+    margin-right: 8px;
+    margin-top: 25px;
+}
+.seafoodM {
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.grillM {
+    margin-right: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.dessertM {
+    margin-left: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.pgSpace {
+    border: 0px;
+}
 
 @media screen and (max-width: 1000px){
-
+    .Bigg {
+        max-width: 777px;
+    }
    
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
+   .topSpacing {
+    margin-right: 8px;
+    margin-left: 8px;
+   }
     .disappearImg {
         opacity: 0%;
+    }
+    .Bigg {
+        max-width: 100%;
+    }
+    .footTxt {
+        text-align: end;
+        margin-top: 10px;
+    }
+    .pgSpace {
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
