@@ -116,9 +116,48 @@ body {
     border: 0px;
 }
 
-body {
-  background-image: url(/assets/bgtexture.jpg);
+
+.woodBg {
+    background-image: url(../assets/bgtexture.jpg);
 }
+.blankBg {
+    background-color: white;
+}
+.navText {
+    font-family: FugazOne;
+    font-size: 20px;
+}
+.footTxt {
+    font-family: Montauk;
+    font-size: 20px;
+    color: #5F002B;
+}
+.footerMargTop {
+    padding: 0px;
+    margin-bottom: -10px;
+}
+.footerMargBot {
+    padding: 0px;
+    margin-top: -10px;
+}
+.redTxt {
+    color: #5F002B;
+}
+.headerTxt {
+    font-family: FugazOne;
+    font-size: 50px;
+    color: #5F002B;
+    text-align: center;
+}
+.menuFilltxt {
+    font-size: 18px;
+    font-family: Montauk;
+    color: #5F002B;
+}
+.menuHeadtxt {
+    font-family: Montauk;
+    font-size: 30px;
+    color: #5F002B;
 .nav-link {
   color: #5F002B;
   font-family: 'Fugaz One', sans-serif;
@@ -164,13 +203,46 @@ ul{
   color: #5F002B;
   font-family:'Fugaz One', sans-serif;
 }
-
-.txt{
-  color: #5F002B;
-  font-family: "Montauk Regular";
-
- 
-
+.subHeadertxt {
+    font-family: FugazOne;
+    font-size: 30px;
+    color: #5F002B;
+}
+.menuBreak {
+    color: #980051;
+    border: solid 1px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+.sandwichM {
+    margin-right: 8px;
+    margin-top: 25px;
+}
+.seafoodM {
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.grillM {
+    margin-right: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.dessertM {
+    margin-left: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.topSpacing {
+    margin-top: 80px;
+}
+.disappearImg {
+    opacity: 100%;
+}
+.Bigg {
+    max-width: 1640px;
+}
+.pgSpace {
+    border: 0px;
 }
 
 
