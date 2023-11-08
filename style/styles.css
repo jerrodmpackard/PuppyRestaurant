@@ -32,14 +32,6 @@ body {
 }
 
 
-@font-face {
-    font-family: Montauk;
-    src: url(../assets/fonts/Montauk-Regular.otf);
-}
-@font-face {
-    font-family: Fugaz One;
-    src: url(../assets/fonts/FugazOne-Regular.ttf);
-}
 .woodBg {
     background-image: url(../assets/bgtexture.jpg);
 }
@@ -118,7 +110,7 @@ body {
     opacity: 100%;
 }
 .Bigg {
-    max-width: 85%;
+    max-width: 1640px;
 }
 .pgSpace {
     border: 0px;
@@ -282,7 +274,3 @@ ul{
          margin-right: 50px;
      }
  }
-
-.containerWidth {
-    max-width: 85%;
-}
