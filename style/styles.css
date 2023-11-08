@@ -31,62 +31,89 @@ body {
   width: 40%;
 }
 
-body {
-  background-image: url(/assets/bgtexture.jpg);
+
+.woodBg {
+    background-image: url(../assets/bgtexture.jpg);
 }
-.nav-link {
-  color: #5F002B;
-  font-family: 'Fugaz One', sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-  
-
+.blankBg {
+    background-color: white;
 }
-
-.muzzlesLogo {
- padding-left: 25%;
-  width: 100%;
+.navText {
+    font-family: FugazOne;
+    font-size: 20px;
 }
-
-ul{
- margin-right: 90px;
+.footTxt {
+    font-family: Montauk;
+    font-size: 20px;
+    color: #5F002B;
 }
-
-.heroHome{
-  height: 100%;
-  width: 100%;
-  padding:0px;
-
+.footerMargTop {
+    padding: 0px;
+    margin-bottom: -10px;
 }
-
-
-
-.text{
-  color: #5F002B;
-  font-size: 20px;
- 
-  /* add font family */
-
+.footerMargBot {
+    padding: 0px;
+    margin-top: -10px;
 }
-
-.aboutMain{
-      background-image: url(/assets/AboutMain.jpg);
-      background-size: cover;
-      height: 100%;
-      
-    
+.redTxt {
+    color: #5F002B;
 }
-
-.mainTxt{
-  color: #5F002B;
-  font-family:'Fugaz One', sans-serif;
+.headerTxt {
+    font-family: FugazOne;
+    font-size: 50px;
+    color: #5F002B;
+    text-align: center;
 }
-
-.txt{
-  color: #5F002B;
-  font-family: Montauk;
- 
-
+.menuFilltxt {
+    font-size: 18px;
+    font-family: Montauk;
+    color: #5F002B;
+}
+.menuHeadtxt {
+    font-family: Montauk;
+    font-size: 30px;
+    color: #5F002B;
+}
+.subHeadertxt {
+    font-family: FugazOne;
+    font-size: 30px;
+    color: #5F002B;
+}
+.menuBreak {
+    color: #980051;
+    border: solid 1px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+.sandwichM {
+    margin-right: 8px;
+    margin-top: 25px;
+}
+.seafoodM {
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.grillM {
+    margin-right: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.dessertM {
+    margin-left: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.topSpacing {
+    margin-top: 80px;
+}
+.disappearImg {
+    opacity: 100%;
+}
+.Bigg {
+    max-width: 1640px;
+}
+.pgSpace {
+    border: 0px;
 }
 
 /* Media Query for P Font Sizes ranging from 16px to 20px */
@@ -158,78 +185,25 @@ ul{
     max-width: 100%;
     height: auto;
 } */
-
-.menuFilltxt {
-    font-size: 18px;
-    font-family: Montauk;
-    color: #5F002B;
-}
-.menuHeadtxt {
-    font-family: Montauk;
-    font-size: 30px;
-    color: #5F002B;
-}
-.subHeadertxt {
-    font-family: Fugaz One;
-    font-size: 30px;
-    color: #5F002B;
-}
-.menuBreak {
-    color: #980051;
-    border: solid 1px;
-    margin-top: -10px;
-    margin-bottom: 35px;
-}
-.sandwichM {
-    margin-right: 8px;
-    margin-top: 25px;
-}
-.seafoodM {
-    margin-left: 8px;
-    margin-top: 25px;
-}
-.grillM {
-    margin-right: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.dessertM {
-    margin-left: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.topSpacing {
-    margin-top: 80px;
-}
-.disappearImg {
-    opacity: 100%;
-}
-.Bigg {
-    max-width: 1640px;
-}
-.pgSpace {
-    border: 0px;
-}
-
 @media screen and (max-width: 650px) {
-   .topSpacing {
-    margin-right: 8px;
-    margin-left: 8px;
-   }
-    .disappearImg {
-        opacity: 0%;
+    .topSpacing {
+     margin-right: 8px;
+     margin-left: 8px;
     }
-    .Bigg {
-        max-width: 100%;
-    }
-    .footTxt {
-        text-align: end;
-        margin-top: 10px;
-    }
-    .pgSpace {
-        padding-left: 15%;
-        padding-right: 15%;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-}
+     .disappearImg {
+         opacity: 0%;
+     }
+     .Bigg {
+         max-width: 100%;
+     }
+     .footTxt {
+         text-align: end;
+         margin-top: 10px;
+     }
+     .pgSpace {
+         padding-left: 15%;
+         padding-right: 15%;
+         margin-left: 50px;
+         margin-right: 50px;
+     }
+ }
