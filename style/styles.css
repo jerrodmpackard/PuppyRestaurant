@@ -237,11 +237,6 @@ ul{
   }
 }
 
-/* .responsiveImg {
-    max-width: 100%;
-    height: auto;
-} */
-
 .blankBg {
     background-color: white;
 }
@@ -369,4 +364,8 @@ ul{
 
 .containerWidth {
     max-width: 85%;
+}
+
+.whiteBorder {
+    border: solid white 10px;
 }
