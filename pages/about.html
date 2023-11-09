@@ -18,7 +18,7 @@
 
 
     <!--start of nav bar-->
-    <div class="container px-0">
+    <div class="container containerWidth px-0">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img id="logo" class="responsiveImg" src="../assets/MuzzlesLogo.png"
@@ -29,24 +29,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="container d-flex justify-content-end">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav align-items-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="./about.html">
                                     <p class="fugazOneFont">About</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/menu.html">
+                                <a class="nav-link" href="./menu.html">
                                     <p class="fugazOneFont">Menu</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/catering.html">
+                                <a class="nav-link" href="./catering.html">
                                     <p class="fugazOneFont">Catering</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="../pages/photos.html">
+                                <a class="nav-link active" aria-current="page" href="./photos.html">
                                     <p class="fugazOneFont">Photo</p>
                                 </a>
                             </li>
@@ -195,27 +195,27 @@
     <!--end of main content-->
 
     <!--start of footer-->
-    <footer class="topSpacing">
-        <div class="container px-0">
-            <div class="row footerMargTop">
-                <div class="col">
-                    <p class="footTxt">1357 Mutt Street, Rottweiler CA. 12345</p>
-                </div>
-                <div class="col d-flex justify-content-end">
-                    <img src="../assets/CompanyLogo.png" alt="A Spaniel Company logo with pawprint"
-                        style="width: 100px; height: 32px;">
-                </div>
+    <div class="container containerWidth montaukFont mt-4 mb-3">
+
+        <div class="hstack gap-3">
+            <div class="d-flex align-items-end">
+                <p class="fontSize20">1357 Mutt Street, Rottweiler CA. 12345</p>
             </div>
-            <div class="row footerMargBot">
-                <div class="col">
-                    <p class="footTxt">Phone: 123-456-7890</p>
-                </div>
-                <div class="col text-end">
-                    <p class="footTxt">Copyright © Muzzles Restaurant</p>
-                </div>
+            <div class=" ms-auto d-flex justify-content-end">
+                <img src="../assets/CompanyLogo.png" class="img-fluid logoSize" alt="Company logo">
             </div>
         </div>
-    </footer>
+
+        <div class="hstack gap-3">
+            <div class="">
+                <p class="fontSize20">Phone: 123-456-7890</p>
+            </div>
+            <div class=" ms-auto">
+                <p class="fontSize20">Copyright © Muzzles Restaurant</p>
+            </div>
+        </div>
+
+    </div>
 
 
     <!--end of footer-->
