@@ -173,22 +173,23 @@ ul {
   p {
     font-size: 20px;
   }
-  .footTxt {
-    font-family: Montauk;
-    font-size: 20px;
-    color: #5f002b;
-  }
-  .topSpacing {
-    margin-top: 80px;
-  }
-  .footerMargTop {
-    padding: 0px;
-    margin-bottom: -10px;
-  }
-  .footerMargBot {
-    padding: 0px;
-    margin-top: -10px;
-  }
+}
+
+.footTxt {
+  font-family: Montauk;
+  font-size: 20px;
+  color: #5f002b;
+}
+.topSpacing {
+  margin-top: 80px;
+}
+.footerMargTop {
+  padding: 0px;
+  margin-bottom: -10px;
+}
+.footerMargBot {
+  padding: 0px;
+  margin-top: -10px;
 }
 
 /* Media Query for H3 Font Sizes ranging from 24px to 30px */
@@ -256,10 +257,9 @@ ul {
     margin-right: 50px;
   }
 }
-  .containerWidth {
-    max-width: 85%;
-  }
-  
+.containerWidth {
+  max-width: 85%;
+}
 
 .whiteBorder {
   border: solid white 10px;
