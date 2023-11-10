@@ -260,31 +260,11 @@ ul {
     margin-left: 50px;
     margin-right: 50px;
   }
-
+}
   .containerWidth {
     max-width: 85%;
   }
-  .topSpacing {
-    margin-right: 8px;
-    margin-left: 8px;
-  }
-  .disappearImg {
-    opacity: 0%;
-  }
-  .Bigg {
-    max-width: 100%;
-  }
-  .footTxt {
-    text-align: end;
-    margin-top: 10px;
-  }
-  .pgSpace {
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
+  
 
 .whiteBorder {
   border: solid white 10px;
